@@ -1,0 +1,1192 @@
+ Artificial Intelligence                                 in
+ Test Engineering
+             5 th July  2025,    Valencia
+                   Inma Ramirez
+    o TestAutomationServiceManager Z    ZURICH
+    o Requirements’EngineeringAssociateProfessor@UPC
+    o PerformanceTesting/APITesting/TestDataManagement/
+      Observability lead@QualitySoftwarePostgraduate@UPC
+                                                                                                              © Zurich
+
+################################################################################################################################################################
+
+                                                AGENDA
+   Introduction to      Test   Engineering      (2H  10’)
+         • Inma    Ramirez    -Who    am  I(15’)
+         . Software   Engineering   Today   (10’)
+         • Impact   of Test Engineering   in Apps’  Lifecyle (10’)
+         . Test  Engineering   - Our challenges   today  (20’)
+         • Test  Engineering   – what  isthis about?  (1h)
+                               -
+         . Open    Discussion   (15’)
+   Break (20’)
+   AI in  Test   Engineering      (2,5H)
+         • How    toApply  AI in Test Engineering   blocks  (30’)
+         • Todays’   Approach    using AI (30’)
+         • Some    Real  Use  Case  (30’)
+         • Future   of AIin Test Engineering   (30’)
+         • Risks   ofAI in Test Engineering   (20’)
+         • Closure   & Open   Discussion   (10’)                                                                                          © Zurich 2
+
+################################################################################################################################################################
+
+           ☐ Telecommunications’          Engineer
+               UCLM &    Miguel  Hernandez   University (2007)
+           ☐ Testing    Tools   Support    Engineer
+               Hewlett Packard   (2007  - 2014)
+           □ Load    &  Performance      Testing   Manager
+               External consultant  @ Zurich (     -      )
+           ☐ Pre-Sales     Manager
+               Sogeti, part ofCapgemini   (2018)
+           ☐ Technical     Director
+               Sogeti, part ofCapgemini   (     -       )
+           ❑ Innovation     Lead   in Test  Engineering
+               Zurich TDC   (2022 - Nowadays)
+           ☐ Test   Automation      Service   Manager
+                                                                                                  Hallo ich bin Chris!
+               Zurich TDC   (2023 - Nowadays)
+                                                                                                                     © Zurich
+
+################################################################################################################################################################
+
+                                                              60,000
+                                                            Employees
+                                                            worldwide
+                                                                                         Market valueof
+        General Insurance                                                                USD  70 Billion
+          Life Insurance
+        Farmers Insurance
+      Commercial Insurance
+      Sustainable Solutions
+     “Since 1872,          creating
+     a brighter       future                                      Customers across
+                                                                   200 countries
+     together”                                                                              Z        ZURICH              (R)
+                                                                                                                  4
+
+################################################################################################################################################################
+
+                                                AGENDA
+   Introduction to      Test   Engineering      (2H  10’)
+         • Inma   Ramirez   -Who   am  I(15’)
+         • Software     Engineering    Today    (10’)
+         • Impact   of Test Engineering   in Apps’  Lifecyle (10’)
+         . Test  Engineering   - Our challenges   today  (20’)
+         • Test  Engineering   – what  isthis about?  (1h)
+                               -
+         . Open    Discussion   (15’)
+   Break (20’)
+   AI in  Test   Engineering      (2,5H)
+         • How    toApply  AI in Test Engineering   blocks  (30’)
+         • Todays’   Approach    using AI (30’)
+         • Some    Real  Use  Case  (30’)
+         • Future   of AIin Test Engineering   (30’)
+         • Risks   ofAI in Test Engineering   (20’)
+         . Closure   & Open   Discussion   (10’)
+                                                                                                                                          © Zurich LO
+                                                                                                                                                   5
+
+################################################################################################################################################################
+
+       Testing Areas                          Overview                   @     Zurich
+       ✓ 15+   years of Zurich’ experience                                     ✓ 300+   Projects  worldwide                          ✓  1100+  SEC   Vulnerabilities Detected
+       ✓ 120+   Professionals   inTesting                                      ✓ 65+   Customers                                     ✓  88%   Regression   automation   coverage
+       ✓ 14M   Revenue                                                         ✓ 25+  Countries   supported                          ✓  60+  Apps   Supported   with  L&P
+       ✓ Multi  External  Partner Approach    (Alltop 4)                       ✓ Strong  KPIs  across  allservices                   ✓  100,000+    Automated    Test Cases
+       Testing Capabilities
+                                                                                             Test Automation
+                                                                                                                                 IoT Testing
+                                                        Omni Channel,  Mobile &
+                                                         Cross Browser Testing
+                                                                                                                                        CX / UX  /Accessibility
+                                       Infrastructure Testing                                                                                   Testing
+                                                                                                              @
+                                                                                                                                                   Data Migration
+                                                                                                                              11                      Testing
+                                       Security Testing
+                        Performance Testing                                                                                                                 Certification
+                            & Engineering                                                                                                                      Testing
+                                Functional                                                        Testing
+                              (SIT and UAT)                                                      Services                                                      API Testing
+
+################################################################################################################################################################
+
+     Testing Services                     -  Organization                                                                               Z    ZURICH
+                  Testing Management                                                           Test      Engineering
+         Functional Testing                                                            Security   Testing
+         • Full  responsibility to Manage,   Design  and                               • To  identify the defects  found  inthe application  that may
+            execute Functional     Test in several approach   from  Agile                result into security risks,and  to design  a controlling plan
+            and V-Mode                                                                   and  best  practices  tomitigate  them
+         Test &  QA   Management                                                       Automation
+         • Steering   testing  events  done  per  business  or third                   •   Automation   Test Strategy  as  wellas  deployment   and
+            parties providing   assessment,   standards,  reports  and                     maintenance    ofautomated    scripts,using  productivity
+            managing dependencies,       quality gates  and risks.                         tools toaccelerate   testexecution,  reduce   manual
+                                                                                           effort and maintain  quality.
+         QA &   Testing   Assessment
+                                                                                       Load and    performance
+         • Assessment     of QA  &  testing practices  within a program
+            against standard   Zurich  practices  and  key advancements                •   Performance,   Load,  Stress, Endurance   and  Application
+            in testing techniques   to achieve  maturity and  mitigation                   Performance   Monitoring   focused   on NFRs
+            of risks.                                                                      Assessment    and  Bottleneck  Identification, supported
+                                                                                           by Multi-location  Injection Infrastructure
+                                                                                                                                                     © Zurich
+
+################################################################################################################################################################
+
+    Building the         Home       of  Successful          Apps
+                                                           PRODUCTION
+                                                           TESTING
+                                     ANALYSIS                  DESIGN                   CODING
+                                                         PLANNING
+                                                       REQUIREMENTS
+                                              INFRASTRUCTURE & ENVIRONMENTS
+                                                                                                                     © Zurich8
+
+################################################################################################################################################################
+
+                                                AGENDA
+   Introduction to      Test   Engineering      (2H  10’)
+         • Inma   Ramirez   -Who   am  I(15’)
+         • Software   Engineering   Today   (10’)
+         • Impact    of Test  Engineering     in Apps’  Lifecyle   (10’)
+         . Test  Engineering   - Our challenges   today  (20’)
+         • Test  Engineering   – what  isthis about?  (1h)
+                               -
+         . Open    Discussion   (15’)
+   Break (20’)
+   AI in  Test   Engineering      (2,5H)
+         • How    toApply  AI in Test Engineering   blocks  (30’)
+         • Todays’   Approach    using AI (30’)
+         • Some    Real  Use  Case  (30’)
+         • Future   of AIin Test Engineering   (30’)
+         • Risks   ofAI in Test Engineering   (20’)
+         • Closure   & Open   Discussion   (10’)                                                                                          © Zurich 9
+
+################################################################################################################################################################
+
+    What is       Testing       in  Continuous           Delivery                                            Z    ZURICH
+                                         CODE                                  DEPLOY
+                                                       PLAN
+                                         Dev                              Ops              1
+                     BUILD
+                                                         RELEASE
+                                            TEST                        MONITOR
+                                         Shift left                       Shift  right
+                                   Ensures softwaremeetsdesign     Ensuresperformance,resilience,reliability
+                      Testing starts  testing earlier in                Testing process   laterin the
+                    the development    cycle  before  the        development    cycle  after the product  is
+                               code is written                                   deployed.                              © Zurich
+
+################################################################################################################################################################
+
+       Testing Services                                 -    Roadmap                     within             Projects
+                                                         Activities                                                                           Results
+                                   ▪ Analyze    technical  and  business   requirements                              ■  Draft  version  of  detailed  test plan  per  test phase
+                                   ■ Create   tentative   test plan                                                  ■  Overview    of test  dependencies     with  other  parts  of
+                       Plan        ▪  Align  with relevant   project  stakeholders    and                               the  project  (e.g. Implementation)
+                                      identify dependencies
+                                   ■ Validation    of the list of functionalities   inscope   for                    ■  List of functionalities   in scope  referenced    to the
+                       Identify    ▪  the implementation      and  mapping    to  the repository        O०O          ▪  repository
+                                      Definition of   test scenarios                                                    Draft  listof  allapplicable   test scenarios   and  test
+                                   ▪ Identification   of  Use  Cases  and  Test  Cases  required                        cases
+                                      to cover  the  goals  of the  project
+                                   ▪ Creation    of Test  Cases  to accomplish    the  technical                     ▪  Comprehensive      list of test scenarios   to cover  testing
+                       Adjust         and  business   requirements                                     Rebr             of all requirements
+                                                                                                       (             ▪  Complete     inventory   of test cases  with  definition  of
+                                                                                                                        required inputs    and  expected    outputs
+                                   ■ Verification   of  the completeness     of  coverage                            ▪  Detailed,   validated  and  prioritized  test  plan
+                       Validate    ■  Prioritization  of test  scenarios  and  test  cases                           ■  Guidelines   for the  testers  during   allapplicable
+                                      according to   the  project’s  criteria                                           testing  phases
+                                   ■ Integration    of test scenarios   and  test  cases  inthe
+                                      detailed test   plan
+                                                                                                                                                                                                 11 ©  Zurich
+
+################################################################################################################################################################
+
+           Development &                                                Testing                        Methodologies                                              -      A       matter                     of       Context
+                                                                                                     Service                                                Service   request                   Service
+                          Project type              Service                                                                 Service    request                                                                                Team
+  Project type                                                           Estimation                 request                                                closure   &  Service           management         &                                             Communication                     Test  approach
+                           description             requests                                                                    executions                                                                                 organization
+                                                                                                    analysis                                                    evolution                      metrics
+  Agile                   Projectshaving                                                                                                                                                                                                           Participation   of key  testers
+                          one or several                                                                                                                                                                                                           form   the beginning,   in all
+  testing                 testers                                     Time  &  Material                                                                                                                                                            ceremonies     (iteration
+                          integrated in one                           or estimated   in        High-level   scope                                                                                                                                  reviews,   daily,
+                          team with scrum
+                          delivery approach                           Test  Service            defined   (Epics  &       Iteration  0 to make                                                                         One-team    vision           retrospectives,...)
+                                                                      Points.                  release  planning).       testware   ready  and                                                                        regardless   location.                                                Agile  TMap   and
+                                                                                               Full agile                detailed  planning   for        Participation    in            Test  reporting   and         Participation  of            Cocreation    of User  Stories  or       DoD   checking  /
+                                                                      Three-sprints            communication             testing  activities.            retrospectives     for         KPIs  with  quality                                        requirements     with  testing           evolution
+                                                                      stabilization                                                                                                                                   testers  from  the           view  (acceptance    criteria,
+                                                                      method is                workspace     for         Participation  in sprints,      improving    testing           evolution   metrics           beginning.                   testability, etc.)
+                                                                      applied.                 multi-location            by including  testing           services,  team                (testing  as a
+                                                                                               ceremonies and            activities as tasks.            organization    and            feedback   source).                                        Communication       tools  for a
+                                                                                               sprints                   Definition   of Done            service  performance.                                                                     continuous    work  environment
+                                                Based on    a                                  management,               (DoD)   includes  test          Periodically,                  SogetiHub     platform                                     regardless   location.
+                                                                                               within the   agile                                                                       for service  requests
+  Scaled                  Projectshaving        form   with                                    team   workspace.         approach   checks.              participation   in             delivery  experience.                                                                               Agile  TMap   +DoD
+  Agile                   testers               specific                                                                 Agile  testing                  SCRUM     of SCRUMS            KPIs  for service                                                                                   + SAFe   agile
+                          integrated into       attributes   for      AGILE  + Including       Agile  testware.                                          retrospective.                 performance.                                                                                        testing
+  testing                 severalscrum          each  service                                                            integration   into                                                                                                                                                 government
+                          teams and             request   type        estimated   time         Specific                  SCRUM.                                                                                       AGILE  + Participation       AGILE   +
+                          coordination and      and  project          for “SCRUM     OF        requirements     for                                                                                                   inSCRUM     of                “SCRUM    of SCRUMS                     Chapters   for
+                          test approach         type.  Taking         SCRUMS”                                                                                                                                         SCRUMS.                      ceremonies    for  coordination.         sharing  testing
+                          alignment across                            coordination.            each  service  type.
+                          teams is required     Service                                                                                                                                                                                                                                     expertise,
+                          to some extent        Catalogue    as                                                                                                                                                                                                                             method    & best
+                                                reference, it                                                                                                                                                                                                                               practices.
+                                                contains basic
+  Hybrid                  Projectshaving        input  context
+                          testers
+  testing                 integrated into       for managing
+                          teams with            the  demand    &                                                                    V-Model   approach   but pushing   transitioning  (continuous  method    evolution)  to agile characteristics.
+                          pseudo-agile          setting-up   the
+                          delivery              basic
+                                                requirements.
+  V-Model                 Projectswith
+                          traditional V-                                                       Requirements
+  testing                 Model  delivery                                                      definition   &            V-Model’s    iterations                                                                      One-team    vision
+                          (after completion                                                                                                                                                                           (ideally with early
+                          of development                                                       documentation.            consisting  on  testing  in                                    Test  reporting   and         participation  of            Follow-up    meetings
+                          testing phases                              Time  &  Material,                                 phases.                                                        KPIs.                         testers).                    (at least in each  testing
+                          start: ST,SIT,                              or  service-             Full multi-                                                                                                                                         iteration/execution).
+                          UAT).                                                                location                                                                                 SogetiHub     platform
+                                                                      based,                                                                             Closure   meeting                                                                                                                  TMap
+                                                                                               communication                                                                            for service  requests                                      Communication       tools  for a
+  Test mgmt.              Projectsto define                           depending    on          workspace.                Test  strategy                                                 delivery  experience.                                      continuous    work  environment
+                          test strategyand                            scope  accuracy.
+                          manage testing                                                                                 definition  and                                                KPIs  for service             One-team    vision           regardless   location.
+                          activities withno                                                    Specific                  management,                                                    performance.                  with early                                                         12
+                          involvement of                                                       requirements     for      integrated   into the                                                                        integration.
+
+################################################################################################################################################################
+
+        DevOps                                       Pipeline                                                                                              BrowserStack
+                                       (Example)
+                                                                                                                                          Desktop          Mobile            Web
+                                                                                                                                           Apps            Device          Browser
+                                                                                                                                                                           ChatGPT
+                                                                                                                                            IA Engine for
+                                                                                                                                          BDD Conversion
+                                                          Visual Studio                             BuildManager   /Continuous                                                                                 Test Cases’
+                                                       Team FoundationServergit                          IntegrationServer                                                                                     Repository           XRAY
+                                                                                           Jenkins                                             Se
+                                                                                                                                                                                                    Azure DevOps
+                                                                                                                                                            000                                                18001           JiraSoftware
+                                                                                                                                                              -000-
+                                                                                                                                                             00-0
+                                                                                                                                                                          Java
+                                                                                                                                                            0-00                   Automated                                   DX
+                                                                                                                                                                                                                               ALM Octane
+                                                                                                                                                                                     Testing
+                                                                        Version
+                                                                        Control                                                                                                      Platform
+                                                                                                                         Code Review   /
+                                                                                                                           Unit Testing
+                                               GitHub                                                                                                                                   Email /Teams
+                                           ▾ ATLASSIAN                                                                      JUnit                                                           Report
+                                              Bitbucket
+                                                                                                                                                                                                                                    Yes
+                                                                         Code
+                                                                       Repository                                                                                                                                                               No
+                                   Planning
+                                                                                                                                                                                                                                 Artifactory
+                                                                                                                                                                                                                                           DOO
+                           Jira Software
+                                                              Developer                                                                                     Production
+                                                                Team
+                                                                                                                   End Users                                                                                                                             ©  Zurich
+
+################################################################################################################################################################
+
+                                                AGENDA
+   Introduction to      Test   Engineering      (2H  10’)
+         • Inma   Ramirez   -Who   am  I(15’)
+         • Software   Engineering   Today   (10’)
+         • Impact   of Test Engineering   in Apps’  Lifecyle (10’)
+         • Test   Engineering     -Our   challenges    today  (20’)
+         . Test  Engineering   - what  isthis about?  (1h)
+         . Open    Discussion   (15’)
+   Break (20’)
+   AI in  Test   Engineering      (2,5H)
+         • How    toApply  AI in Test Engineering   blocks  (30’)
+         • Todays’   Approach    using AI (30’)
+         • Some    Real  Use  Case  (30’)
+         • Future   of AIin Test Engineering   (30’)
+         • Risks   ofAI in Test Engineering   (20’)
+         • Closure   & Open   Discussion   (10’)                                                                                          © Zurich14
+
+################################################################################################################################################################
+
+     Test Engineering                   -   Our     Main       skills     according            to   Organizations
+                     Quality Engineering          :Alive   and   kicking    !
+                      Fig 1    Top  5 skillsfor Quality  Engineering   associates                                WQR  2024 - Global Results
+                     What are  the top  fivemost  criticalskillsforyour  Quality Engineering   associates ?
+                                                                     %                                                          %
+                                    70                           66                                                         66
+                                        %                                                         %
+                                                                                               66
+                           Quality Engineeringskills           AI/MLand                 Cloudfundamentals           BI& Dataanalyticsskills
+                                                              Gen Al skills
+                                        %
+                                    66                           62
+                                                                     %                            %                         48  %
+                                                                                              57
+                         Behavior drivendevelopment        Domain knowledge                 AI/ML and                 CI/CDOrchestration
+                           / Testdrivendevelopment                                          GenAl skills
+                                                                                                        World Quality   Report   2024   - 2025       © Zurich
+
+################################################################################################################################################################
+
+       Cloud Systems                                    -  Key           Areas               to       be        observed
+                         Security &   Compliance                               Performance                                             Availability                               Quality  @  Speed
+                  ■ Introduction    of new  assets  like         ▪  Validate  performance    On-prem    vs Cloud  to     ▪  Cloud  developed    as well as on-          ▪  Faster  development    processes
+                     APIs, serverless   functions, and              identify bottlenecks   on  Application  and             premise   application  extended   to           drive a need   fortesting  atspeed
+                     third-party integrations   that                Infrastructure  sides                                   Cloud  infrastructure  need  to                to support   release cycles  and
+                     require Security   Testing                  ▪  Certify ifbusiness   transactions’  response            validate for Disaster  recovery,               Time-to-Market    (DevOps    & CT)
+                  ▪ Cloud    infrastructure is highly               times  fulfillNon-Functional   requirements             Fault tolerance  - Availability and         ▪  Preparation   of Automated
+                     dynamic, like  CI/CD                           and  suffer no  degradation   in Cloud                  Chaos   Testing                                Testing  Package    forregression   is
+                     pipelines, making   itharder  to            ■  Validate  infrastructure  configuration  & sizing                                                      key  to accelerate  the Go-Live
+                     maintain consistent    security test           on  Cloud,  verifying that resources   are being
+                     coverage and    track  changes                 utilized efficiently
+                  ■ Alignment    with  compliance                ▪  Confirm   proactive  and  optimized  Auto-
+                     frameworks (GDPR,      DORA),   in             scaling  to avoid  oversized  configuration  of
+                     line with Zurich  Global  Standards            resources   and  future performance    problems
+                     and Guidelines
+                                          ■ Multi  cloud  Integration  increases              ▪  Validate Application                        ▪  Validate  data  transition tocloud
+                                             additional integration  complexity                  Modernization   -  Extending   legacy       ▪  Application   Configuration
+                                          ▪ Application    service exchange    data              application  to utilizeCloud                   successful   and  Smoke    Test
+                                             with other  SaaS  &  PaaS  Solution                 service and  scale                             scenarios   passed
+                                          ▪ Application    service response   time                                                           ▪  Application   can  be accessed    via
+                                             within SLA                                                                                         allagreed   channels
+                                          ■ Denied    Unauthorized    service
+                                             access
+                                                        Integration                                  App   Modernization                              Data   Consistency
+                                                                                                                                                                                                                16
+                                                                                                                                                                                                                © Zurich
+
+################################################################################################################################################################
+
+                                                AGENDA
+   Introduction to      Test   Engineering      (2H  10’)
+         • Inma   Ramirez   -Who   am  I(15’)
+         • Software   Engineering   Today   (10’)
+         • Impact   of Test Engineering   in Apps’  Lifecyle (10’)
+         • Test  Engineering   - Our challenges   today  (20’)
+         • Test   Engineering     - what  is this about?   (1h)
+         . Open    Discussion   (15’)
+   Break (20’)
+   AI in  Test   Engineering      (2,5H)
+         • How    toApply  AI in Test Engineering   blocks  (30’)
+         • Todays’   Approach    using AI (30’)
+         • Some    Real  Use  Case  (30’)
+         • Future   of AIin Test Engineering   (30’)
+         • Risks   ofAI in Test Engineering   (20’)
+         • Closure   & Open   Discussion   (10’)                                                                                          © Zurich17
+
+################################################################################################################################################################
+
+       Test Engineering
+       Overview of         Services
+       ✓ 15+   years of Zurich’ experience                                     ✓ 300+   Projects  worldwide                          ✓  1100+  SEC   Vulnerabilities Detected
+       ✓ 55+   Test  Engineers                                                 ✓ 65+   Customers                                     ✓  88%   Regression   automation   coverage
+       ✓ 14M   Revenue                                                         ✓ 25+  Countries   supported                          ✓  60+  Apps   Supported   with  L&P
+       ✓ Multi  External  Partner Approach    (Alltop 4)                       ✓ Strong  KPIs  across  allservices                   ✓  100,000+    Automated    Test Cases
+                                                                                                          Agile & CI/CD
+                                                                                                       Performance Testing
+                                                                                         Performance
+                                                                 Load, Stress &          Consultancy                          Chaos  Testing
+                                                                   Endurance
+                                           ROI Monitoring &                                                                                  Web, API & Mobile
+                                             Maintenance                                                                                      SecurityTesting
+                               *
+                                 m
+                        Specific approach on                                                                                    WWW                                ApplicationSecurity
+                          strategical areas                                                                                                                        Audit& Compliance
+                                                                                           LOAD & PERFORMANCE
+                             Agile & CI/CD                                                       LOAD   &                                                   SAST  / SCA  /DAST
+                          Automated Testing                                                 PERFORMANCE                                                      Veracode  Testing
+                                                                     AUTOMATION
+                                                                          AUTOMATION                                        SECURITY
+                                                                                                                 SECURITY
+                           Automation using
+                             Zurich GenAI             ·                                             Test                                                       SDLC  Manual
+                                                      0                                         Engineering                                                    Penetration Testing
+                                                                                                  Services
+
+################################################################################################################################################################
+
+    Test Engineering          Approach                                                    Z          BusinessTechnology
+    Approach & Methodology                                                              ZURICH       Solutions
+      SHIFTING QUALITY                                                              SHIFTING      QUALITY
+                LEFT                                                                         RIGHT
+      to accelerate  Go-Live  and                                                  to monitor  and control  End
+         reduce fixing  costs                                                          Users’  EXperience
+                                                                                                            19 © Zurich
+
+################################################################################################################################################################
+
+     Test Engineering                  Approach                                                                       Z             BusinessTechnology
+     Our Added      Value   &  Efficiencies                                                                         ZURICH          Solutions
+                                       INTERNAL GROUP      SERVICE                        SERVICE   OPTIMIZATION     AND  COST-EFFECTIVENESS
+      ▪ Technical   Excellence:   Deep   knowledge    and  proven               ▪ Homogenization     of Testing  processes    and
+         maturity and  experience   on  three key  Testing  areas  to             methodologies     to ensure  Testing  Delivery’s  agility,
+         be covered   as part of Cloud   Migration  Strategy:                     consistency   and  Test  artifacts’Reusability
+         o Automated    Regression    Testing                                   ▪ Usage   of mature   and flexible Opensource     Toolset
+         o Load,  Performance,   Stress  Testing  and  Infrastructure             Automation    Framework    on  Automation   services,
+           Monitoring                                                             removing   Licensed   solutions’  costs
+         o Security  Testing: Manual   Penetration   Testing  and
+           Automated Scanning                                                   ▪ Usage   of Internal GenAI   capabilities provided   by  GTO,
+                                                                                  fostering internal  collaboration  and  partnership,
+      ▪ Knowledge     Retention   in-house   and Return   of                      guaranteeing    compliance    ofthe  AI techniques   being
+         Investment: No   dependencies     on  external suppliers,  no            used,  and  avoiding  any  dependencies     on external
+         knowledge loss                                                           suppliers’  solutions
+      ▪ Safe  guarders   of Zurich  Standards   and  Guidelines
+                                                                                                                                             20 © Zurich
+
+################################################################################################################################################################
+
+        Test Engineering                                Success                  Case                                                                                                         Business     Technology
+                                                                                                                                                                   ZURICH                     Solutions
+        Our joint        trip  in   Germany          BU                                                                    ....and  more    to  come     !!!
+                                                                                                                                   2025
+                                                                                                                                        L&P, Security    and  Automation     Services
+                                                                                                                                        ✓ Consolidated   Proposals  forL&P  and  Security(95 apps  in total)
+            Outstanding Benefits           to  Germany       BU                                                                         ✓  DORA   Regulation: Operational  Model  adaption and  Process  Standardization
+                                                                                                                                          + GenAI  Optimization:
+      Consolidated Annual      Service  Proposals                                                                                       ✓  Zurichat:Faster Test Execution  and immediate  Report  deliveryin L&P  Service
+            20% Cost    savings  per Service                                                                 2024                       ✓  SAST-IA   Solution Development
+                                                                                                                                        ✓ Automated    Test Cases’ Standardization, Test data’s validation,Code
+      Internal Knowledge     Retention                                                                                                     generation and  Self-Healing
+                                                                          L&P, Security    & Automation     Services
+      Customized Services      from our  Catalogues                       ✓  Consolidated  Proposals  forL&P  and
+                                                                             Security Services (88 apps  intotal)                                     2023
+      Optimized and    Standardized    Processes                          ✓  Mainframe  Automated   Testing (F3)
+             Test Artifacts Continued    Reusability                                                                                                         L&P   &  Security  Services
+            Execution lead    times reduced   by  10%                                                                                                        ✓  FirstConsolidated  Proposals  for BAU  & A2C  Program
+                                                                                                                                                             ✓ L&P   and  SecurityServices  (47apps  in total)
+      Compliant with    Group  Guidelines   and  DORA    Regulations                                                                                         ✓  20%  Cost  savings (administration +resources)
+                                                                                                                                                             ✓ Dedicated   Team,  knowledge   retention
+      Internal AI Capabilities  (GTO)  and  NextGen    Techniques           L&P   & Security   Services                         2021-22                      ✓  Veracode   Service added  as part ofSecurity Catalogue
+            Continuously applied     in allServices                         ✓  Increase of demand   inL&P  Service (22 apps)
+                                                                            ✓ First Manual  Pen  Testing for4 applications
+            Removing dependencies        with external  suppliers           ✓  Process  optimization
+      Aligned with   Organization   Strategy
+             Contributing to  External  Reduction   Spend                                                                           2017-20
+                                                                         2016                                                             L&P   Service
+                                                                                                                                          ✓ Increase  of Demand:   Up to 10 applications inscope  (Weblife,Guidewire,  Glife...)
+                                                                                                                                          ✓ L&P   Test to detect bottlenecks on application or infrastructuresides
+                                         L&P Service                                                                                      ✓  Assess  NRFs
+                                         ✓ First application (eSignature)
+                                         ✓ L&P   Test to detect bottlenecks
+                                                                                                                                                                                                           21 O   Zurich
+
+################################################################################################################################################################
+
+  Test Automation
+  Service
+  Inma Ramírez(TestAutomationServiceManager)
+  inma.1.ramirez@zurich.com
+                                                                                                                 © Zurich22
+
+################################################################################################################################################################
+
+       Test Automation                         Service
+                                                                                                                                                  Z                 Business  Technology
+                                                                                                                                               ZURICH              Solutions
+            Service overview
+                        Present in   16                           Supported                              SAP    , Web
+                        Business Units                            more   than                              Services,                              100%       Net
+                          and Group                                  100                               Guidewire                                Promoter    Score
+                        Functions over                           Applications                             and  Cloud
+                          13 years                                                                        Migrations
+            Service Catalogue
+                                Automation using         GenAI                                                  Specific     Approach      on   Strategical     areas
+                                . Based   on defined  scope, Test Automation   Framework                         . Full integrationwith GTF  on both  levelsAPI  and UI
+                                  allows to generate  Automated   Test Cases   by using a 3                     •  Solution for Mainframe   /Desktop  applications, to enhance
+                                  layered Framework:                                                               assessment   on  built-informs,maps   orscreenshots
+                                       • Hybrid  BDD   /TDD   Framework’s  core                                 •  Specific built-incode  within SAP  ALM
+                                       . Test  Data module                                                      •  Full integrationwith Test Automation   Framework,  to enhance
+                                       • Copilot  toenhance   code  generation  to maximize                        efficiencies and maximize   reusabilityof code
+                                          code’s reusability
+                               Agile &    CI/CD     Automated       Testing                                     ROI    Monitoring      and   Maintenance
+                               • Definition  ofpipelines, SLAs  agreement   and                                 •  Control of Test Cases  in scope  based  on
+                                  infrastructure’s requirements                                                    code’s  stability,maintenance  of the
+                                . CI/CD  Pipeline integration - automated   scripts                                generated   code and  savings  compared   to
+                               • Faster  preparation, execution  and  maintenance                                  manual  executions                                             © Zurich
+
+################################################################################################################################################################
+
+       Value we                bring         to    maximize                 ROI                                                                           Z                 Business  Technology
+                                                                                                                                                       ZURICH               Solutions
+                      Reduction of      Costs                                        Continuous       Errors   Detection                                 Agile   Go-Live     to Production
+                      • Execution    of automated     tests                          •  Through   integration   of the                                   •  Using   Zurich  internal GenAI
+                         allows to  reduce   manual                                     Automation    within  CI/CD                                         capabilities  as  well as Copilot   to
+                         efforts and  ensure                                            pipelines,  to perform   the tests                                  continuously    enhance    the code
+                         repeatability of  the tests                                    every  time  code  is updated                                       we  develop   at minimum     cost
+                      . After  initialinvestment,   only                             .  Execution   times  drastically                                   •  Ready   to use  Test  Automation
+                         maintenance tasks      are                                     reduced   whilst  no  manual                                        Framework     to grant  immediate
+                         needed, which     keep  low                                    intervention  is required                                           onboarding    of the  automation
+                         execution costs    at every  cycle
+                                                                 200000
+                                                                                          Automated vs    Manual  Exection  Cost
+                                                                 180000
+                                                                                                                                            Cost ( € )
+                  Figure shows      the  Return   of  the        160000                                         ROI
+                  Investment of     Automated      Testing       140000                                        point
+                                                                 120000
+                  considered for      200   Test  Cases          100000
+                  using our    Test  Automation                  80000
+                  Framework through         20  testing          60000                                                   Profit
+                  cycles, ensuring      an  increasing           40000
+                  Return of    the  Investment     after         20000
+                                                                    0
+                  cycle 12                                              1   2   3   4   5    6   7   8   9   10   11  12  13  14  15   16  17  18  19   20
+                                                                                       Manual Testing        AutomatedTesting                     Cycle
+                                                                                                                                                                                           © Zurich
+
+################################################################################################################################################################
+
+  Load &               Performance
+  Testing Service
+                                                                                                                                                                                                                                                            11111
+  Beatriz Rodriguez(Load&PerformanceTestingServiceManager)
+  b.rodriguezfernandez@zurich.com
+                                                                                                           © Zurich25
+
+################################################################################################################################################################
+
+      Load &           Performance                    Testing           Service                                                             Z               Business  Technology
+                                                                                                                                         ZURICH             Solutions
+           Service overview
+                       Present in   20                         Supported                             SAP   ,Web
+                       Business Units                          more   than                            Services,                            100%       Net
+                         and Group                               200                               Guidewire                             Promoter    Score
+                       Functions over                         Applications                           and  Cloud
+                         15 years                                                                    Migrations
+           Service Catalogue
+                              Load, Stress      and  Endurance       Testing                                 Chaos    Testing
+   HO
+                              • Application/infrastructure benchmarking                                      •  Simulates real-word disruptions
+                              • NFR   assessment   and bottleneck identification                             •  Supports to builda resilientsystem
+                              . Infrastructure scalability&cost saving                                       .  Enhance  incident response  capabilities
+                              Agile &   CI/CD    Testing                                                     Performance       Consultancy
+                              . Code   performance  validation- ShiftLeft                                    •  APM  data monitoring analysis (On-prem  & Cloud)
+                                                                                                                                     > * >
+                                                                                                             • Remediation   Action Plan creation&  Tracking
+                                                                                                             .
+                              . CI/CD  Pipeline integration- automated  scripts
+                              . Faster preparation, execution and  maintenance                               •  Performance  Testing Strategy
+                                                                                                             • Performance   Tool Consultant
+                                                                                                                                                                            Zurich
+
+################################################################################################################################################################
+
+       Load &             Performance                      Testing             Service                                                                    Z                 Business  Technology
+                                                                                                                                                       ZURICH               Solutions
+             Service Delivery            Models
+                  Managed Service            (Global    Team)                                           Managed        Capacity      (Dedicated       Team)
+                          . Selected   items from  the service  catalogue                                      .  Unlimited  performance    Testing  (allcatalogue  items)
+                          . Unlimited  Global  Capacities   included  (Infrastructure & Software)              •  Unlimited  Global  Capacities  included   (Infrastructure & Software)
+                         • Global   Team   (Test Manager   &  Test Engineer)                                   •  Dedicated   Team,  flexibilityand availability
+                         • Fixed   scope  and  planned   execution  dates                                      •  Application  knowledge    retention
+                         • Recommended        for stable applications                                          •  Recommended       forAgile or CI/CD   models
+                          . OUTPUT:    Performance    Report  and  NRF   Assessment                            .  OUTPUT:    Executions   on-demand,    consulting,  analysis and  reporting.
+                                                                                                                  Continuous NFR     assessment
+             Service Cost          Investment         Models
+             For the  Managed    Service, several  variables influence  the price: complexity   of application  and size of scope   to be covered   (number   of
+             business flows/services),   Non-Functional     Requirements     (load to be simulated)  and  number   of test rounds   to schedule
+                                         Application size                      Number   of
+                                                                                                                       Protocol
+                                          & complexity                 Business  Flows/  Services
+                                               Small                                1-3                            Web  /Webservices
+                                              Medium                               4 -6                            Web  /Webservices
+                                                                                                                  Web / Webservices    /
+                                               Large                               7 -10
+                                                                                                                       SAP / Citrix
+                                                                                                                  Web / Webservices    /
+                                            Extra Large                             >10
+                                                                                                                       SAP / Citrix
+             Regarding the   Managed     Capacity, the  price should  be quoted   individually cases  by case  based   on the number   of FTEs  and  profiles required
+                                                                                                                                                                                             Zurich
+
+################################################################################################################################################################
+
+  Security Testing
+  Service
+    28
+  Ignacio Manzano(SecurityTestingServiceManager)
+  ignacio.manzanoroces@zurich.com
+                                                                                                                     © Zurich
+
+################################################################################################################################################################
+
+      Security Testing                       Service                                                                                                      Z      ZURICH
+           Service overview
+                       Present in   37                         More   than                        Ethical Hacking    &
+                       Business Units                       500    Projects                            Security                            100%      Net
+                         and Group                          covering   200+                          Compliance                          Promoter   Score
+                      Functions since                         Applications                        focused   on  Group
+                            2020                                                                     Applications
+             Service Catalogue
+                              Web, API      & Mobile    Security    Testing                                  SAST    / SCA    / DAST    Veracode      Testing
+                   WWW        •  Automated  and  Manual  Application Testing on non-                         •  StaticAnalysis
+                                 Productive environments                                                     •  Dynamic  Analysis
+                              • Aligned  with Best Industry practices and Standards                          •  Software Composition  Analysis
+                                                                                                             .
+                              . Combined    techniques  ofautomated,  manual  and IA                         •  CI/ CD Integrations
+                                                                                                             .
+                                 Security testingadapting  theprojects to ourcustomers
+                              SDLC Manual         Penetration     Testing                                     Application      Security      Audit   &   Compliance
+                              • Assess   Applications Risk levelbefore Go Live                               •  Alignment with Zurich Group  Regulations
+                              • Identify exposure  ofSensitive Data and  potential                              and Global Security Frameworks
+                                 vulnerabilities.                                                            •  Industry-recognized global security
+                              • Define  Attack Vectors and  provide custom  solutions.                          frameworks  such as DORA,  NIST, and
+                              . Provide  a comprehensive   reportincluding proposed                             GDPR  into the securitytestingprocesses.
+                                 mitigations and revalidation.
+                                                                                                                                                                          © Zurich
+
+################################################################################################################################################################
+
+       Maximizing ROI:                             The        Value            We        Deliver                                                                                  Z       ZURICH
+                Enhanced Security          Posture                                  Zurich   inhouse     Global    Service                                 Improved     Collaboration      and
+                • Proactive    Risk Management:                                     •  Dedicated    Zurich  team                                           Knowledge       Sharing
+                   Identifies and   mitigates                                          experienced    in Zurich  Products   and                            .  Better  Communication:     Facilitates
+                   vulnerabilities before   they  are                                  Applications   across   allregions.                                    seamless   communication      between
+                   exploited.                                                       •  Application   knowledge    retention                                   security  and  development     teams.
+                • Tailored   Security  Measures:                                    •  Cost  optimization   by leveraging                                  •  Shared   Expertise:  Enables   knowledge
+                   Customizes security     protocols                                   Zurich  Internal Resources.                                            transfer and  skillenhancement      among
+                   specifically suited                                                                                                                        team  members    .
+                                                     Average RemediationCost
+                                   7.000 €                                                                 Dev       Test      Staging      Prod
+                                                                                6.670,00 €
+                                   6.000 €
+                                   5.000 €
+                              00
+                                   4.000 €
+                                                                                                                  Cost andtimetoidentifyflaws
+                                    3.000 €
+                                   2.000 €                             840,00€                                      $ $   $   $    $
+                                    1.000 €
+                                                     1      70,00€                                                      ShiftSecurityLeft
+                                      0 €
+                                              Design      Development      QA         Production
+                                  National InstituteofStandardsandTechnology
+                                                        Preventive Testing        is a matter    of cost   savings   .
+                                                                                                                                                                                                     © Zurich
+
+################################################################################################################################################################
+
+                                                AGENDA
+   Introduction to      Test   Engineering      (2H  10’)
+         • Inma   Ramirez   -Who   am  I(15’)
+         • Software   Engineering   Today   (10’)
+         • Impact   of Test Engineering   in Apps’  Lifecyle (10’)
+         • Test  Engineering   - Our challenges   today  (20’)
+         • Test  Engineering   - what  isthis about?  (1h)
+         • Open     Discussion    (15’)
+   Break (20’)
+   AI in  Test   Engineering      (2,5H)
+         • How    toApply  AI in Test Engineering   blocks  (30’)
+         • Todays’   Approach    using AI (30’)
+         • Some    Real  Use  Case  (30’)
+         • Future   of AIin Test Engineering   (30’)
+         • Risks   ofAI in Test Engineering   (20’)
+         • Closure   & Open   Discussion   (10’)                                                                                          © Zurich31
+
+################################################################################################################################################################
+
+                        What areas     do  you  think
+                        will be  subject   to Benefit
+                        from GenAI?
+                                                          © Zurich
+
+################################################################################################################################################################
+
+                                                AGENDA
+   Introduction to      Test   Engineering      (2H  10 ')
+            Inma Ramirez    -Who   am  I(15’)
+            Software Engineering    Today   (10')
+            Impact of  Test Engineering   in Apps ' Lifecyle (10')
+            Test Engineering   - Our  challenges  today  (20')
+            Test Engineering   - what  isthis about ? (1h)
+            Open Discussion    (15')
+   Break ( 20   ')
+   AI in  Test   Engineering      (2,5H)
+         • How    to  Apply  AI  inTest  Engineering     blocks   (30’)
+         • Todays’   Approach    using AI (30’)
+         • Some    Real  Use  Case  (30’)
+         • Future   of AIin Test Engineering   (30’)
+         • Risks   ofAI in Test Engineering   (20’)
+         • Closure   & Open   Discussion   (10’)                                                                                          © Zurich33
+
+################################################################################################################################################################
+
+      Where do                companyies                    believe           GenAI           is   aplicable?                                                    Z      ZURICH
+                                Unlocking the   power   of  Gen Al :What   are organizations    really using  itfor ?                   “Gen     AI  is not   just   the   future”
+              Plan
+                                 Fig 17 Most likelyGen Aluse casesforimplementation                            WQR2024-GlobalResults    “it’s the   present,      transforming
+                                Which of thefollowingGenAl(LLM andSLM models )usecasesareyou most likelytoimplement?                    Quality     Engineering         before
+                                Test Reporting                                                                             56%          our   eyes”
+            Identify            DefectAnalysis                                                                             56%
+                                                                                                                           54 %
+                                Knowledge Management                                                                                        “It was   surprising     that  most
+                                Test DataGeneration                                                                        52%
+                                                                                                                                               respondents identified
+                                Test AutomationScriptconversion                                                            50%
+                                from onetooltoanother                                                                                       Test   Reporting      and   Defect
+             Adjust             TestCaseOptimization                                                                       48%                 Analysis    as  the   top  use
+   Rebe                         Requirementscoverageanalysis                                                               48%               cases    to  implement...     This
+                                Requirement creation                                                                       46%              is contrary    to  the  use   cases
+                                Test AutomationScriptcreation                                                              46%                    we   have    seen   and
+            Validate            TestCasegeneration                                                                        45 %                   implemented        so  far”
+                                                                                                                            World Quality      Report     2024    - 2025     34   © Zurich
+
+################################################################################################################################################################
+
+   Let’s think,         where        we    should        apply       GenAI        in  Testing
+          555
+                      Plan                            Identify                           Adjust                           Validate
+           Context Analysis
+           • Stakeholders                     Definition of manual
+           • Business     goals               Test Cases                        Test  Data  Assessment            Generation   of Test
+           • Objectives                       API  Testing                                                        Results
+           • Application’s                                                       Output   expectations
+               Roadmap                        Regression   Test  Set                                              Assessment     ofresults
+                                              Advisory                          Standardization    of             against  previous
+           Requirements                                                         models                            executions
+           • UML                              Synthetic  data                   Regeneration    of data           Definition  of
+           • OCL                              generator                                                           Automation
+           • Stakeholders                     Automated    Test                 Self-healing   in                 Regression    tests
+           • Input   Data                     Scripts                           Automated    scripts              (based  on  defects’
+           • Security    Constraints                                            (Functional   & L&P)              trends)
+           • Non-Functional                   L&P  Test  Scripts                Prediction   ofSecurity           Definition  ofmodels   for
+               Requirements
+                                              UX Scripts                        Vulnerabilities                   L&P   Testing
+           Resources                          Accessibility  Scripts
+           Application’s Roadmap
+                                                                                                                                           35 ©  Zurich
+
+################################################################################################################################################################
+
+   Case @            Zurich          -   A   matter          of    Resources                escalation
+                                                                                                                                     Key Features:
+                                                                                                                                         • Improves   the qualityofuser storiesfor
+       Creating a comprehensive       solution  designed    to centralize  and  handle   alltesting  services  and                          bettertesting and development.
+       requirements, enhancing       efficiency  and  effectiveness   through:                                                           •  Manages   testevents including test
+                                                                                                                                            case design, automation, and
+           - Centralized    access   point for alltesting  needs.                                                                           execution.
+           - Utilization  of AI and  ML  technologies.                                                                                   •  Designs  regression testsets.
+           - Integration   and  reuse  of existing  tools in the Testing   Center  of Excellence    (TCoE).
+                    Unique Selling         Points                           Strategic      Approach                      ✓              Key    benefits
+       •   Leverages    over  15 years  of TCoE                Develop    new  functionalities  and  integrate         •   Efficiency: Reduced     time to market   time
+           experience.                                         existing  testing tools  by:                                by  increasing   productivity  and  efficiency
+       •   A  unique   Zurich  solution  dedicated   to QA     •   Offering  services   as shared   and  on-           •   Quality: Higher   quality software   with fewer
+           and testing   activities.                               demand.                                                 bugs,  team  focusing   on  added   value
+                                                                                                                           tasks
+       •   Eliminates   the need   for multiple  external      •   Maximizing    the use  of open-source     tools
+           provider solutions.                                     and  architecture.                                  •   Cost: Lower   costs  in testing  events
+       •   Covers   all testing events   such  as design,      •   Applying   continuous    improvement.
+           automation, execution,     load  and                •   Designing    with a microservices
+           performance, security,     analysis  of
+                                                                   architecture for  scalability, flexibility,and
+           requirement quality,    etc
+                                                                   efficiency
+                                                                                                                                                                          © Zurich
+
+################################################################################################################################################################
+
+      Case @                           Zurich                       -      A       matter                       of         leverating                                 resources
+          User Story                    Analysis                                                                     Test         Case            Design              :                                                              Test          Automation
+                                                                                                                  •    Create      detailed       Positive,      Negative        and    boundaries
+      • Analyse         provided        user    stories     from     plain    text                                     scenarios        tests    from     analyzed        stories     based      on    readiness
+      • Provide        a  good      quality     analysis       and    metrics      for   story                         criteria                                                                                                      •  Automatic         testing      scripts     -  based       on
+          based on:                                                                                               •    Stories      not   matching         readiness        criteria    will  not    allow    test                      predefined         conditions
+                                                                                                                       case creation
+                  o Completeness
+                                                                                                                  •    Extract     into    excel     generated         tests
+                  o Ambiguity                                                                                     .    Send      tests    to  be   automated           to  the   automation          team     in  a
+                  o Achievable                                                                                         JSON       format
+      • Extract       into    Excel     analysed        user    stories     and    provided                       •    Validate      Test     Cases      to   be   automated          in  terms     of  context,                   Test         Regression                       Design
+      .
+          improvements.                                                                                                test   data    and     checkpoints           to  be   automated,          if:
+      • Provide        KPIs     (Savings,       Story     Quality).                                                            o   Required         Inputs     OK:     Message         Automation           in
+                                                                                                                                   process is         submitted.
+                                                                                                                               o Required           Inputs     NOK:       Pop    up    requesting                                  •    'AI-Test      Set   Advisor’        - Test    Regression          Design       Set
+                                                                                                                                   additional inputs            shows,       if not   filled,   sent    to                              (ML/AI)      already      in  place.
+                      TCOE AI Copilot                                                                                              automation          will  be    cancelled.
+                      How to use TCGEAICopilot                                                AnalyzedUserStories
+                      PornStories you can choosebet                                                                                                                                                                                                                     AGILE
+                                  yutthayu.can see the        stands forthe
+                                                                                                 178                 70
+                                                                     O
+                                                                                                                                                                                                                                                                 Deploy                 Test
+                    120h 32min      88              90              $5616.77saved
+                                                                                 TIME
+                                                                                               Anal Stories
+                   Analytics Dashboard                                                                                                                      GeneratedTestCases                                                                                 Review                    Develop
+                    Activity Trends                            TestTypesDistribution                                                                        D  StoryD             ArstHorse                      firstDescription               Step                                               Our       goal:
+                                                                                                                                                             D "        TI          LoginTest                    Thatthelogfunctionalityoftheapplicatenview
+                                                                                                                                                            L 12        T2        Searchfunctionality             thearchfuncionalityofthepotion Mon
+                                                                                                 Story Asabnis                                                 18       TB        UserRegationRest               Testthederregistrationfunctionalityoftheapplicationview                       MVP         Release
+                                                                                                                                                               M        1         ProfileUpdateT                  tang pectinuation              www
+                                                                                                                                                             D "        TS         Upload                        Testtheplotfunctionalityattheippationwww       Plan      Design     Launch
+                                                                                                                                                            D "         TI          LoginTest                    Testtheloginfunctionalityoftheapplotionview
+                    Cost Analysis                              StoryQualityOverview                                                                            12       12        SearchFunctionality            Petthesearchfunctionalityoftheapplicationview
+                    94000 Cat Sweet(LLLLL                                                        ShitsContent                                                                                                                        1W 150    TripAction
+                    3000
+                                                                                                     It to see   thelattimeforcre
+           JAN                                                                                                                                                MAY                                                                                                                               JUL
+                                                                                                                                                                                                                                                                                                                        © Zurich
+
+################################################################################################################################################################
+
+                                                AGENDA
+   Introduction to      Test   Engineering      (2H  10 ')
+            Inma Ramirez    -Who   am  I(15’)
+            Software Engineering    Today   (10')
+            Impact of  Test Engineering   in Apps ' Lifecyle (10')
+            Test Engineering   - Our  challenges  today  (20')
+            Test Engineering   - what  isthis about ? (1h)
+            Open Discussion    (15')
+   Break ( 20   '
+                 )
+   AI in  Test   Engineering      (2,5H)
+         • How    toApply  AI in Test Engineering   blocks  (30’)
+         • Todays’    Approach     using   AI (30’)
+         • Some    Real  Use  Case  (30’)
+         • Future   of AIin Test Engineering   (30’)
+         • Risks   ofAI in Test Engineering   (20’)
+         • Closure   & Open   Discussion   (10’)                                                                                          © Zurich38
+
+################################################################################################################################################################
+
+      Case @                       Zurich                    -     Story                 Quality                     Analysis
+        Story Analysis                                                                                                                                                                  Content     of  the
+        Analyze user storiesand  generate tests                                                                                                                                          User   Story   or                   Triggers           Analysis           using        our     Prompts            to    check:
+                                                                                                                                                                                          User Stories
+                                                                                                                                                                                                                             1.      Specificity
+            Enter your userstory/stories:
+              User Story1 :                                                                                                                                                                                                  2.      Measurability
+              Title : ClaimantLoginForm  Loading Time
+              Description : Asaclaimant ,Iwant the claim payment  system  toload the loginform  within3 seconds ,so that Ican quicklyaccess my  account .                                                                    3.      Technical     Clarity
+              Acceptance Criteria:
+              The loginform  should be fullyloaded within 3 seconds of accessing the claimpayment   system .                                                                                                                 4.      Edge    Case    Handling
+              The loading time should be measured   from the moment   thelogin page isrequested  tothe moment   the entireform is visibleand interactive.
+              The system should  be testedacross the latestversions ofmajor  browsers (Chrome  ,Firefox,Safari,Edge ).                                                                                                       5.      Dependencies
+              The system should  be testedon both  desktop and  mobile devices.
+            Used Model  :GPT -01                                                                                                                                                                                             6.      Performance       Requirements
+                                                                                                                                                                                                      Analyze Story
+                                                                                                                                                                                                                             7.      Acceptance        Criteria
+                  Story analysiscomplete ! Found 3 storiesto analyze.
+                                                                                                                                                                                         Results of    the                   8.      INVEST     Compliance        (Independent,        Negotiable,      Valuable,    Estimable,
+                                                                                                                                                                                            Analysis                         Small,   Testable)
+           ID        Title                                                                              Analysis                                                                               etails   Score
+           US - 001  This user story focuses on ensuring  the login form loads in aspecific              The story isspecific,measurable  ,and  has clearacceptance   criteriabut needs                    85                                                        Scoring    based     on;
+                     timeframe for  efficientaccess .                                                    more  detailed technic...                                                            Details
+                                                                                                                                                                                                                                          0-40 (Not      Ready):    Automatic      ifANY    of  these   are  present:
+           US - 002  This user story aims to enhance  the aesthetic quality ofthe claim  payment        The  story contains subjective terms  like'visuallyappealing ,''modern ,'and          Details      25                  •       Contains     subjective/unmeasurable             terms
+                     system .                                                                            lacks measurable  criter...                                                                                           •       Lacks    specific,   measurable       acceptance       criteria
+           GGUS-     This user story describes the process  forguest users to create an account  in      The story has a clearpurpose  and  actionable acceptance   criteria,butit                         70                  •       Contains     no   concrete     technical    specifications
+                                                                                                                                                                                              Details                          .       Uses    qualitative    rather   than   quantitative     measures
+           1         the Baby  Bunting  system .                                                         contains a typographical  er...
+      Rows per       10               <   Page 1 of 1   >         Showing  1-3 of 3items                                                                                                                                                41-75    (Needs    Clarification):    Has   some     specific   details   but   requires
+      page :                                                                                                                                                                                                                   clarification
+                                                                                                                                                              Input Tokens:1943 -Output Tokens:968 -TotalCost:$0.002423                 76-100     (Ready):    Exceptionally      clear   with  no  subjective     terms    and
+                                                                                                                                                                                                                               complete technical          specifications
+                                                                                                            All Types                               Generate  Tests           Export Selected           Export  All
+                                                                                                                                                                                                                                                                                                               39       ©  Zurich
+
+################################################################################################################################################################
+
+         Case @                                         Zurich                                   -         Story                               Quality                                      Analysis
+                                                                                                                                                                                                                                                                                                                                                 US - 002  Thisuserstoryaimstoenhancetheaestheticqualityoftheclaim     The storycontainssubjectivetermslike'visuallyappealing'modern'   Details      25
+                                                                                                                                                                                                                                                                                                                                                           payment system.                                             and lacksmeasurablecriter...
+                                                                                                                               Result of            the                    GGUS -1   This userstorydescribestheprocessforguestuserstocreatean   Thestoryhasa clearpurposeandactionableacceptancecriteria,butit  Details
+                                                                                                                                                                                      account in theBabyBuntingsystem.                          containsatypographicaler...
+                                                                                                                                    Analysis
+          ☐     ID        Title                                              Analysis                                                                                                                                                                                                                                                         Story Analysis
+                                                                                                                                                                        Story Analysis                                                                                                                                                                                                                                                                     QualityScore
+                US - 001  ThisuserstoryfocusesonensuringtheloginformloadsinaspecificThestoryisspecific,measurable,andhasclearacceptancecriteriabut                                                                                                                                  QualityScore                                              AnalysisOverview
+                          timeframe for efficientaccess.                     needsmoredetailedtechnic...                                                               AnalysisOverview                                           Improvements                                        70     Acceptable                                                                                                                                                      25     Needs  Improvement
+                                                                                                                                                                          The storyhasaclearpurposeandactionableacceptancec           suggested                                              OverallRating                                      The storycontainssubjectivetermslike'visuallyappealing,''modern,'andlacksmeasurablecriteriaordetailed               OverallRating
+                                                                                                                                                                          from clarifiedtechnicalrequirements.                                                                                                                                   specifications.
+             Story Analysis
+                                                                                                               uality Score
+                                                                                                                                                                                                                                                                                    Test Generation
+             Analysis Overview                                                                                                                                                                                                                                                                                                                                                                                                                             TestGeneration
+                                                                                                                85    Excellent                                            Fixtypographicalerrorsintermssuchas'Guest'and'adainst'forclarity.                                                           GenerateTests                            commended  Improvements
+               The storyisspecific,measurable,andhasclearacceptancecriteriabutneedsmoredetailedtechnicalspecificationsOverallRating                                      ⚫Define theerrormessagestobe shownforexistingorinvalidemailaddresseswithspecificlanguage(e.g.,"Emailaddress                                                            • Replacesubjectivetermswithspecificguidelinesorexamplesforthecolorscheme(e.g.,hexcodesforcolors).                            GenerateTests
+               regarding the errormessageandloadingindicator.
+                                                                                                                                                                           already exists'or'Invalidemailformat).                                                                                                                                 Definewhatconstitutes'modernandtrendy'withspecificdesignreferencesorstyles.
+                                                                                                                st Generation                                            ⚫SPLIT  STORY:'GuestUserProfileCreation'-Focusontheaccountcreationworkflowfromthehomepageonly.
+             Recommended Improvements                                                                                                                                                                                                                                                                                                             Specifynavigationalelements,suchasmenustructure,buttonplacements,oranyparticularUXpatternsintendedfo
+                                                                                                                              Generate Tests                             ⚫SPLIT  STORY:'GuestUserCartAccountCreation'-Detailtheaccountcreationprocessspecificallyfromthecartpage.
+              ⚫Define the specificerrormessagethatshouldbedisplayediftheloadingtimeexceeds3seconds.                                                                                                                                                                                                                                               providingintuitivenavigation.
+                                                                                                                                                                         ⚫SPLIT STORY :'GuestUserWishlistAccountCreation'-Separatestoryforcreatinganaccountviathewishlistoverlay.
+               . Specifytheformatandfunctionalityoftheloadingindicator(e.g.,spinner,progressbar).
+               • Listanyspecificperformancemetricsthatshouldbecollectedduringtesting,suchasaverageloadingtimeorpeakusage
+                 times .
+                                                                                                                                                                                                                                                                                                                                                       Improvement Focus                                   Areas
+             Recommended Improvements
+                                                                                                                                                                                                                                                                                                                                                       •           Technical                 specifications
+                 • Correct                typos       :  change           'Guesr        '  to   ' Guest       '  and       'adainst         '  to   ' against         '.
+                                                                                                                                                                                                                                                                                                                                                       •           Validation                rules
+                 ⚫ Define              the      exact        validation              rules      for     email         and      other        fields        (e.g.    ,  max       length         , format          requirements                   ).                                                                                                     •           Edge           cases
+                                                                                                                                                                                                                                                                                                                                                       •           Error        states
+                 • Specify               the      error       messages               for    existing           and      invalid          email        addresses               (e.g.    ,  'Email         already          exists       ', ' Invalid        email         format         ' ).                                                           •           Acceptance                      criteria
+                 • Clarify             the      fields       required            for     account            creation           and       their       validations             .                                                                                                                                                                         •           Measurements                           and        metrics
+                                                                                                                                                                                                                                                                                                                                                       •           Replacing                  subjective                 terms           with       measurable
+                 • Include                requirements                   on     the      design          of   the     profile         icon       and      wishlist           icon      interactions               .                                                                                                                                                alternatives
+                                                                                                                                                                                                                                                                                                                                                       •           Eliminating                  ambiguity
+                                                                                                                                                                                                                                                                                                                                                       •           Ensuring                testability
+                                                                                                                                                                                                                                                                                                                                                       •           Coverage                  of    UI/UX,            backend,                data         persistence,
+                                                                                                                                                                                                                                                                                                                                                                   integrations, security,                                and        performance
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                       40           ©    Zurich
+
+################################################################################################################################################################
+
+     Case @                     Zurich                 -     Test             Cases                  Generation
+                                                                                                                                                                                                                  Key Features:
+                                                                                                                                                                                                                  •     Strict     focus      on    provided         User      Story
+       Controlled Quality                          -    Generates                 tests        only       of    Stories          that       meets           quality          criteria                                   content
+                                                                                                                                                                                                                  •     Comprehensive                  Test     Coverage
+                                                                                                                                                                                                                  •     Detailed         steps      to   follow
+      ID   Title                                    Analysis                                     DetailsScore
+      US- Ensuretheclaimpaymentsystem'sloginformloadsThestoryspecifiesclearloadingtimerequirementsand    85                                                                                                       •     Explicit       Validations
+      001 within3seconds.                           measurableoutcomeswhiledefiningthetesti...   Details
+      US- The claimpaymentsystemshouldhaveavisually Thestorycontainssubjectivetermslike'visuallyappealing',30                                                                                                     •     Prioritization          of   Tests
+      002  appealingdesignforapleasantuserexperience.'attractive',and'modern',withnom...         Details
+  Rows per   10        <  Page1of1 >      Showing1-2of2items
+  page :
+                  Test ID   Story  ID   Test Name                                   Test Description                                                     Test Type    Steps                            Jira
+                  TC003     2           Verify ErrorMessage  on Update  Failure     Ensure  an errormessage   isdisplayed ifreal-time update fails.       Negative                                                              Azure     DevOps
+               Test Description:
+               Ensure an  errormessage   isdisplayed ifreal-timeupdate  fails.                                                               Generated                      Tests
+               Test Steps:
+                  1. Step: Navigate tothe claims payment   system .
+                       Expected : Claimspayment   dashboard  isdisplayed .
+                 2. Step :Locate  the claim payment  with ID 12345 .
+                       Expected : Claimpayment   detailsare visible.
+                  3. Step: Simulate a failureinthe real-time update .
+                       Expected : Errormessage  isdisplayed .
+                                                                                                                                                                                                                                X
+                 4. Step :Verify the system attempts  toretry the update every 5 seconds .                                                                                Export
+                       Expected : Retrymechanism   isfunctioning .
+               Priority : Critical
+                                                                                                                                                                                                                                                                           © Zurich
+
+################################################################################################################################################################
+
+   Case @       Zurich      -  Test    Automation,          is  it that   easy?
+                                   Test Automation  Framework                     Test Automation  Framework  receives
+                                   validates TestCases  contain                   the Test Cases, thatare translatedto
+                                    all therequiredinformation                               standard code
+                     1                                                2                                                3
+             User sends    Test                                Ul  prompt   to                                    Automation    of
+          Cases to   Automation                               complete    data                                   the  Test  Cases
+                    4                                                 5                                                6
+          Executions &    Fine                               Automated     Test                                     Run   Mode
+                Tunning              TestAutomation       Cases   show   available          Self-Healing applied
+                                  Engineer reviews  and                                        based on  Test
+                                                                 in the  UI
+                                  validates thecode and                                    Automation  Engineer’s
+                                   the reportingmodel                                             criteria
+                                                                                                                                            42 © Zurich
+
+################################################################################################################################################################
+
+                                                AGENDA
+   Introduction to      Test   Engineering      (2H  10 ')
+            Inma Ramirez    -Who   am  I(15’)
+            Software Engineering    Today   (10')
+            Impact of  Test Engineering   in Apps ' Lifecyle (10')
+            Test Engineering   - Our  challenges  today  (20')
+            Test Engineering   - what  isthis about ? (1h)
+            Open Discussion    (15')
+   Break ( 20   ')
+   AI in  Test   Engineering      (2,5H)
+         • How    toApply  AI in Test Engineering   blocks  (30’)
+         • Todays’   Approach    using AI (30’)
+         • Some     Real  Use   Case   (30’)
+         • Future   of AIin Test Engineering   (30’)
+         • Risks   ofAI in Test Engineering   (20’)
+         • Closure   & Open   Discussion   (10’)                                                                                          © Zurich43
+
+################################################################################################################################################################
+
+  Automation Technical                   Challenges          in  2024                                           Testing  Center
+                                                                                                                of Excellence
+   Our Test   Automation      Framework     has amazingly  sustained
+   the Service during the past 13years ...                                             ...buthow is itbeing modernized  with the
+                                                                                       implementation of  Github   Copilot   to
+                                                                                       overcome all technical challenges  and to boost
+                                                                                       Automation service       efficiencies?
+                                                                 Evolve
+                                                          Deal with  increasing
+                        Accelerate                    complexity   of Test  scripts,                     Scale  -Up
+                                                       specially those   handling
+                                 Speed up                     massive   data         Ability to fitour solution
+                      Time-To-Market by      reducing                                  to extensive  Testing
+                           implementation and                                        coverage    requirements
+                         maintenance Lead      times                                 such  as Cloud   Migration
+     Optimize                                                                                                  Cost  -Effectiveness
+            Reduction of    initialefforts                                                  Usage   of Open-Source
+          during Test   Cases  Analysis   to                                           Frameworks     toreduce   costs  and
+            understand functionalities                                             remove   external  supplier  dependencies     ©
+                                                                                                                             44
+        ONLY
+
+################################################################################################################################################################
+
+  Copilot Role         in our   continued         Service     Optimization                              Testing  Center
+                                                                                                        of Excellence
+                                          Code’s reorganization   involves standardization  of testcases  to simplify
+     *       CODE   STRUCTURE              maintenance   and  complexity,  where  Copilot saves  over 50%   effortto
+            STANDARDIZATION
+                                                    translate the existing code  to the common    structure
+     WWW      BROADER      APPS             Development   of specific librariesto enhance   objects’ recognition were
+                LANDSCAPE               developed   in Q4 2024   tosupport  any  kind oftechnology,   such as Mainframe
+                                           or Desktop  applications, and  everything  by using Open-Source     solution
+             FASTER DELIVERY             Significant Time  Saving  between   20%  and  40%  in Automation  Scripting’s
+                 TIMELINES                    Development    hours, depending   on  the complexity  ofthe scripts.
+       €       MAINTENANCE             The  improved   mechanism    torecognize  objects  reinforced code’s  reliabilityand
+            COSTS REDUCTION              robustness,  generating  Cost  savings  inAutomated    Scripts’Maintenance    of
+                                                      30% in  2024,  increasing  up to 50%  in Q1-Q2  2025
+                     Optimize        Accelerate          Evolve          Scale  -Up      Cost  -Effectiveness
+                                                                                                                     45 © Zurich
+INTERNAL USE ONLY
+
+################################################################################################################################################################
+
+     Our Success                                 Journey                      with           Copilot                   has           just         started                                                               Testing           Center
+                                                                                                                                                                                                                        of Excellence
+                                                                                                                                              ‘This is  only   the   beginning,      new    challenges       to  come!’
+                                                      Self-Healing is   now   a reality by  using  Open-Source
+                                                    ✓ Framework    allows toeasilydefine steps inan easy and
+                                                        readable format,which  allowsto minimize tasks
+                                                    ✓ Object   recognition’sengine allows to applyfixingat runtime
+                                                    ✓ Model    fullyintegratedwithTest Engineering Portal,to permit
+                                                                                                                             2025
+                                                        customers control the executions while maintenance  occurs
+                                                        behind the scenes
+                                                                                                                                                                                Test Automation      starts collaboration    in Germany
+      20-30% Effort     & Cost   reduction   in new   Code                                                                                                 December           ✓   Successful presentation of theTest Automation  Mainframe
+      40% Effort    & Cost   reduction   in Maintenance                                                                                                       2024                solutionallowed the team to achieve one of ourbusiness
+                                                                                                                                                                                  goals, bepresent in new Business  Units
+                                                                              Mainframe Test     Automation     Solution
+                        Copilot’s                                         ✓  Presented  inGermany,  the solutionallowed to
+                                                                             recognize objects, validatepositionsand  interact
+                                                                             not only withMainframe,  butwith any kind of        November
+                    Onboarding                                               Desktop  Applications                                  2024
+                        Progress                                                                                                                       ‘New    challenge      →   Mainframe        Automation        Testing’
+                                                                           Benefits are   fully quantifiable   and  shared
+                                                                          ✓ Copilot  issuccessfully used in Web  automation
+                                                                             for allnew requests,Ireland,Sentinel and Catdwh
+                                                                          ✓ Copilot  used to analyse and implement  the
+                                                                             integration withGTFramework   (Guidewire)
+   2024                                            2025
+            10% Cost    reduction   in new   Code                                                                             June   2024
+        20-30% Cost      reduction   in Maintenance
+                                                                            Pilot using  Copilot
+                                                     ✓ Part  of theinitiativeTestAutomation  ServiceModernization, 1                                                                             March    2024
+                                                         month license was granted for 2Users
+                                                     ✓ Copilot  was  mainlyused  forrepetitivesteps,API standard calls                                                                                         Start of Migration    of Code   to Github
+                                                         and Web  actions (Brazil)                                                                                                                   ✓   Core ofthe Framework  migrated from Bitbucket to Github
+                                                     ✓ 20%   reduction of effortswas estimated forJava  Code                                                                                         ✓   Successful projectslead to extend the pilotforlongerand to
+                                                                                                                                                                                                         all newprojects
+                                                                                                                              ‘As Automation         Engineers,      itmakes      our  lives         ✓   Standardizationof generic methods  inplace
+                                                                        Feb 2024                                                                                                                     ✓   New  usersincluded to extend the usage
+                                                                                                                                 easier !!!   ...but   how    beneficial     Copilot    is
+                        ‘Is itworth    to  Invest   in  Copilot?’                                                                              for   our  customers?’
+                                                                                                                                                                                                                                                   46    ©  Zurich
+INTERNAL USE    ONLY
+
+################################################################################################################################################################
+
+                                                AGENDA
+   Introduction to      Test   Engineering      (2H  10 ')
+            Inma Ramirez    -Who   am  I(15’)
+            Software Engineering    Today   (10')
+            Impact of  Test Engineering   in Apps ' Lifecyle (10')
+            Test Engineering   - Our  challenges  today  (20')
+            Test Engineering   - what  isthis about ? (1h)
+            Open Discussion    (15')
+   Break ( 20   ')
+   AI in  Test   Engineering      (2,5H)
+         • How    toApply  AI in Test Engineering   blocks  (30’)
+         • Todays’   Approach    using AI (30’)
+         • Some    Real  Use  Case  (30’)
+         • Future    of AI in Test  Engineering    (30’)
+         • Risks   ofAI in Test Engineering   (20’)
+         • Closure   & Open   Discussion   (10’)                                                                                          © Zurich47
+
+################################################################################################################################################################
+
+    Challenges in                       Gen          AI     Adoption
+                                                                 What challenges      isyour  organization   currently  working   through   in regards   to usage  of Gen  Al ?
+                                                                  Lack of clearstrategyonhow to validatethe usefulness    AI                                                                  56 %
+         “Quality Engineering            is  not                  ofGen Al solutions
+             just about      testing,    it’s
+                                                                  Lack of GenAlskillswithintheteam                        AI                                                                  53 %
+         about ensuring          excellence
+                   at every     step”                             Lackof well-definedorganizationof qualityand testing    AI                                                                  50 %
+                                                                  Use of GenAl solutionshasbeen                           AI                                                                  48 %
+                                                                  prioritized fornon-QualityEngineeringactivities
+                                                                  Poor qualityofrequirements ,designsand other inputs     AI                                                                  42 %
+                                                                  Usage of Gen Alsolutionsare notapproved                 AI                                                                  39 %
+                                                                                                                                              No challengespreventourorganizationfromGenAladoption:4%
+                                                                                                                                         World Quality         Report     2024     - 2025            © Zurich
+
+################################################################################################################################################################
+
+  Challenges in           Testing       within     Devops
+    “ As organizationsnavigatethis                                                         “Itisno  longer a question   of ‘if’AIand
+                                                                                           other emerging    technologies   will
+    transformative age,gaininginsights
+                                                                                           become a part    of the DevOps    factory”
+    into the future willrequirefocusingon
+    this emerging  trends  and  testing
+    strategies
+                                                              Regression
+                                                          artifacts are  key  to
+                                                             accelerate the
+                                   Continuous               Delivery process
+                                                                                       Collected results
+                                  Development
+                              requires Continuous                                     and   metrics   sustain
+                                                                                       projects’ fixing Plan
+                                     Testing
+                Applications have
+               been progressively                                                                Continuous    executions
+              moved to    Agile  and                                                            lead  to evolve   demand
+                 CI/CD Models                                                                    management        models
+                                                                                                                                 ©
+        ONLY
+
+################################################################################################################################################################
+
+   Main areas            to   Focus
+           555
+                       Plan                              Identify                            Adjust                            Validate
+            Analysis of  relationship
+            among requirements
+                                                                                                                       Generation of   Test
+            Generation of    Master                                                 Standardization    of              Results
+            Test Plan  based   on               Generation   of User                models
+            Requirements                        Stories  based   on                                                    Analysis  of Trends
+                                                Requirements                        Automatic
+            Identification of                                                       checkpoints’                       Definition  of
+            potential data                      Analysis  of the  quality           generation                         Automation
+            constraints                         of User  Stories                                                       Regression    tests
+                                                                                    Regeneration of    data            (based  on  defects’
+            Generation of                       Generation   of Test                Self-healing  in                   trends)
+            relationship model                  Cases   based   on User
+            between                             Stories                             Automated    scripts               Predict  Infrastructure’s
+            Functionalities                     Generation   of Test                (Functional  &  L&P)               constraints  to meet
+            Generation of    Test               Data  needs                         Prediction  of Security            Non-Functional
+                                                                                    Vulnerabilities                    Requirements     (L&P  /
+            Automation Plan     based                                                                                  Security)
+            on business    priorities
+                                                                                                                                                     © Zurich
